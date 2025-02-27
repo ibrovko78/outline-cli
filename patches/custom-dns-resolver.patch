@@ -1,5 +1,5 @@
 From 0dee551ff51ea6721858ee5fe4d58b48b6b1827a Mon Sep 17 00:00:00 2001
-From: Kir_Antipov <kp.antipov@gmail.com>
+From: Kira-NT <kira.canary@proton.me>
 Date: Sun, 16 Mar 2024 17:28:49 +0000
 Subject: [PATCH] Added a way to specify a custom DNS resolver
 

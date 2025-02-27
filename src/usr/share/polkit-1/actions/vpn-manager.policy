@@ -4,8 +4,8 @@
  "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
 
 <policyconfig>
-  <vendor>Kir-Antipov</vendor>
-  <vendor_url>https://github.com/Kir-Antipov/outline-cli</vendor_url>
+  <vendor>Kira-NT</vendor>
+  <vendor_url>https://github.com/Kira-NT/outline-cli</vendor_url>
   <icon_name>network-wireless</icon_name>
 
   <action id="vpn-manager">

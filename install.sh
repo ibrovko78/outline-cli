@@ -5,7 +5,7 @@
 #################################################
 # The URL of the repo that contains this file.
 #################################################
-REPO="https://github.com/Kir-Antipov/outline-cli"
+REPO="https://github.com/Kira-NT/outline-cli"
 
 #################################################
 # The default name for the __vpn_manager symlink.
