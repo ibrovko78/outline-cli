@@ -1,8 +1,8 @@
 # Outline CLI
 
-[![GitHub CI Status](https://img.shields.io/github/actions/workflow/status/Kir-Antipov/outline-cli/ci.yml?logo=github)](https://github.com/Kir-Antipov/outline-cli/actions/workflows/ci.yml)
-[![Version](https://img.shields.io/github/v/release/Kir-Antipov/outline-cli?sort=date&label=version)](https://github.com/Kir-Antipov/outline-cli/releases/latest)
-[![License](https://img.shields.io/github/license/Kir-Antipov/outline-cli?cacheSeconds=36000)](LICENSE.md)
+[![GitHub CI Status](https://img.shields.io/github/actions/workflow/status/Kira-NT/outline-cli/ci.yml?logo=github)](https://github.com/Kira-NT/outline-cli/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/github/v/release/Kira-NT/outline-cli?sort=date&label=version)](https://github.com/Kira-NT/outline-cli/releases/latest)
+[![License](https://img.shields.io/github/license/Kira-NT/outline-cli?cacheSeconds=36000)](LICENSE.md)
 
 <img alt="Outline CLI Icon" src="media/icon.png" width="128">
 
@@ -32,7 +32,7 @@ Obviously, the official CLI provides you with the ability to connect to servers 
 The installation process is quite straightforward: just clone this repo and run the `install.sh` script.
 
 ```sh
-git clone https://github.com/Kir-Antipov/outline-cli
+git clone https://github.com/Kira-NT/outline-cli
 cd outline-cli
 sudo ./install.sh -y
 ```
@@ -40,7 +40,7 @@ sudo ./install.sh -y
 Alternatively, for `curl $URL | sudo bash` enjoyers, the same result can be achieved with the following one-liner:
 
 ```sh
-curl -Ls https://github.com/Kir-Antipov/outline-cli/blob/master/install.sh?raw=true | sudo bash -s -- -y
+curl -Ls https://github.com/Kira-NT/outline-cli/blob/master/install.sh?raw=true | sudo bash -s -- -y
 ```
 
 This will:
