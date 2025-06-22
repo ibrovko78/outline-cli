@@ -208,9 +208,8 @@ urid() {
 #   otherwise, a non-zero status.
 #################################################
 send_notification() {
-  local display_id="$(ls /tmp/.X11-unix/X* 2> /dev/null | head -n 1 | sed -E 's|/tmp/.X11-unix/X([0-9]*).*|\1|')"
-  local display=":${display_id:-0}"
-  local display_user="$(who | grep "(${display})\|(login screen)" | head -n 1 | sed 's/\s.*//')"
+  local display=":0"
+  local display_user="$(users | sed 's/\s.*//g')"
   local display_user_id="$(id -u "${display_user}" 2> /dev/null)"
 
   if command_exists notify-send; then
