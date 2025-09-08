@@ -1,5 +1,5 @@
-# Oroginal link https://github.com/Kira-NT/outline-cli/tree/master
-- dont forget install install iptables-persistent
+### Original link https://github.com/Kira-NT/outline-cli/tree/master
+
 ```
 dont forget add/edit exclude your ip net address for internet connection access
 in taht files
